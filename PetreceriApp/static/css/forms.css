@@ -1,0 +1,15 @@
+input {
+    border-radius: 7px;
+    height: 24px;
+    font-size: 18px;
+
+}
+input[type=submit] {
+    margin-top: 5px;
+    height: fit-content;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

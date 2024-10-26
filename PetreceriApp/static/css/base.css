@@ -1,0 +1,51 @@
+body {
+    font-size: 1.3rem;
+}
+.navbar{
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    align-items: flex-start;
+    background-color: sandybrown;
+    height:60px;
+    font-size: 1.5rem;
+}
+
+.navbar a {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+div.container {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+    background-color: #fff6bf;
+    min-height: calc(100vh - 60px);
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .container {
+  margin-top: 60px;
+}
+
+a.login {
+    align-self: flex-end;
+}
+button, input[type=submit] {
+    background-color: lightblue;
+    font-size: 1.3rem;
+    border-radius: 8px;
+}
